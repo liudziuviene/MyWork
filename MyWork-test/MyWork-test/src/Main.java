@@ -4,6 +4,10 @@ public class Main {
         String[] stringsArray = {"Hello", "world"};
         printArray(numbersArray);
         printArray(stringsArray);
+        System.out.println();
+
+        Azuolas azuolas = new Azuolas();
+        azuolas.turi();
     }
 
     private static <T> void printArray(T[] array) {
