@@ -1,6 +1,6 @@
-package task2_medziai.tipai;
+package second_task_medziai.tipai;
 
-import task2_medziai.Medis;
+import second_task_medziai.Medis;
 
 public class Lapuotis extends Medis {
     @Override

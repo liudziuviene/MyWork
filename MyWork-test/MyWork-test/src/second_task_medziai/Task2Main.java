@@ -1,7 +1,7 @@
-package task2_medziai;
+package second_task_medziai;
 
-import task2_medziai.rusys.*;
-import task2_medziai.tipai.Spygliuotis;
+import second_task_medziai.rusys.*;
+import second_task_medziai.tipai.Spygliuotis;
 
 import java.util.List;
 
@@ -18,21 +18,21 @@ public class Task2Main {
     private static <T extends Medis> void ivairusMiskas(List<T> miskas) {
         System.out.println("Ivairus miskas: ");
         for (T medis : miskas) {
-            System.out.println(medis.turi());
+            System.out.println(medis.toString() + medis.turi());
         }
     }
 
     private static <T extends Spygliuotis> void spygliuociuMiskas(List<T> spygliuociuMiskas) {
         System.out.println("Spygliuociu miskas: ");
         for (T spygliuotis : spygliuociuMiskas) {
-            System.out.println(spygliuotis.turi());
+            System.out.println(spygliuotis.toString() + spygliuotis.turi());
         }
     }
 
     private static <T extends Berzas> void berzuMiskas(List<T> berzuMiskas) {
         System.out.println("Berzu miskas");
         for (T berzas : berzuMiskas) {
-            System.out.println(berzas.turi());
+            System.out.println(berzas.toString() + berzas.turi());
         }
     }
 }
