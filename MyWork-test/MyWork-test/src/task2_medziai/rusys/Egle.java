@@ -5,6 +5,6 @@ import task2_medziai.tipai.Spygliuotis;
 public class Egle extends Spygliuotis {
     @Override
     public String turi() {
-        return "Egle turi spyglius";
+        return "Egle " + super.turi();
     }
 }
