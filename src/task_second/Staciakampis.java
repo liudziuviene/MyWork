@@ -1,6 +1,6 @@
 package task_second;
 
-public class Staciakampis extends Figura {
+public class Staciakampis extends Figura implements Piesimas {
     protected double ilgis;
     protected double plotis;
 
@@ -11,12 +11,17 @@ public class Staciakampis extends Figura {
     }
 
     @Override
-    protected int apskaiciuotiPlota() {
-        return 0;
+    protected double apskaiciuotiPlota() {
+        return ilgis * plotis;
     }
 
     @Override
-    protected void piesti() {
+    public void piesti() {
+        System.out.println("Piesti staciakampi");
+    }
 
+    @Override
+    protected void printCommonFields() {
+        super.printCommonFields();
     }
 }

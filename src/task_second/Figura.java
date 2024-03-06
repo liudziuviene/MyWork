@@ -9,7 +9,9 @@ public abstract class Figura {
         this.uzpildyta = uzpildyta;
     }
 
-    protected abstract int apskaiciuotiPlota();
+    protected abstract double apskaiciuotiPlota();
 
-    protected abstract void piesti();
+    protected void printCommonFields() {
+        System.out.println("Spalva: " + spalva + ", uzpildyta figuros ploto: " + uzpildyta);
+    }
 }

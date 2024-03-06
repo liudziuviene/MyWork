@@ -1,3 +1,8 @@
 
-_
-java:S2094"BRemove this empty class, write its code or make it an "interface".(„àÁ8Ê¤Æ¦á1
+L	java:S106"+Replace this use of System.out by a logger.(«Îüîşÿÿÿÿ8‡´©á1
+N
+java:S1068"1Remove this unused "statybosMetai" private field.(Ä§¯8ê¬À¨á1
+Q
+java:S1068"4Remove this unused "energingumoKlase" private field.(€Ü¶ß8ë¬À¨á1
+H
+java:S1068"+Remove this unused "adresas" private field.(úáƒÍ8©­Â¨á1

@@ -1,7 +1,7 @@
 package task_second;
 
-public class Apskritimas extends Figura {
-    private int spindulys;
+public class Apskritimas extends Figura implements Piesimas {
+    private double spindulys;
 
     public Apskritimas(String spalva, int uzpildyta, int spindulys) {
         super(spalva, uzpildyta);
@@ -9,12 +9,17 @@ public class Apskritimas extends Figura {
     }
 
     @Override
-    protected int apskaiciuotiPlota() {
-        return 0;
+    protected double apskaiciuotiPlota() {
+        return 2 * Math.PI * spindulys;
     }
 
     @Override
-    protected void piesti() {
+    public void piesti() {
+        System.out.println("Piesti apskritima");
+    }
 
+    @Override
+    protected void printCommonFields() {
+        super.printCommonFields();
     }
 }

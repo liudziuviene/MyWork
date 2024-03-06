@@ -1,5 +1,4 @@
 
-
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ú‰¢¦8¿Ë‚§á1
-O
-java:S1068"-Remove this unused "spindulys" private field.(ßÉóÔÿÿÿÿÿ8ªƒ‚§á1
+G	java:S106"+Replace this use of System.out by a logger.(›Î–8•ê´©á1
+J
+java:S1185"(Remove this method to simply inherit it.(¥¥´æøÿÿÿÿ8€û¢ªá1

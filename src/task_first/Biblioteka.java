@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Biblioteka {
-    private static List<Leidinys> leidinysList = new ArrayList<>();
+    private List<Leidinys> leidinysList = new ArrayList<>();
 
     protected void pridetiKnyga(Knyga knyga) {
         leidinysList.add(knyga);
