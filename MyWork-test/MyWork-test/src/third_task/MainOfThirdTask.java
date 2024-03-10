@@ -20,6 +20,7 @@ public class MainOfThirdTask {
         System.out.println(pasaulis);
         String labas = mapOfStrings.gautiReiksme("labas");
         System.out.println(labas);
+        System.out.println();
     }
 
 }
