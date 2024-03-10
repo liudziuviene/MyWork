@@ -21,6 +21,7 @@ public class MainOfThirdTask {
         String labas = mapOfStrings.gautiReiksme("labas");
         System.out.println(labas);
         System.out.println();
+        System.out.println( );
     }
 
 }
